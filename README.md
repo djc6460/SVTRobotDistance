@@ -5,8 +5,7 @@ Instructions for running:
 2) An pre-built executable can be found in SVTRobotDistance/ReleasePublic/
 
 
-Description of what features, functionality, etc. you would add next and how you would implement them - you shouldn't spend more than a few hours on this project, so we want to know what you'd do next (and how you'd do it) if you had more time
-Future Features:
+Possible Future Features:
 1) Mess around with the batterylife information, preferring higher/lower battery life. Especially if there's one with a full charge not getting used very much.
 3) Actually make a DAL rather than shoving it in with everything else. Also perhaps look for ways to minimize requests on the robot list (Do i actually need to get the entire list every time?). Being able to use one pull for multiple queries would justify the effort of setting up a nice quickly searchable datastructure rather than looping the whole thing.
 4) Better error handling and data sanitization for the robot list and post request.
